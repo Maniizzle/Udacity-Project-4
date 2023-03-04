@@ -26,8 +26,8 @@ Operationalizing a machine learning python microservice with an endpoint that re
 
 ### Setup the Environment
 
-* Create a virtualenv and activate it by executing `python3 -m venv devopsenv`
-* Source the virtual environment: `source devopsenv/bin/activate`
+* Create a virtual environment by executing:  `python3 -m venv devopsenv`
+* Activate it by executing: `source devopsenv/bin/activate`
 * Run `make install` to install the necessary dependencies
 
 ### Running the application

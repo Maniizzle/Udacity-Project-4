@@ -1,5 +1,4 @@
-<include a CircleCI status badge, here>
-
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Maniizzle/Udacity-Project-4/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Maniizzle/Udacity-Project-4/tree/main)
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
@@ -49,4 +48,3 @@ source .devops/bin/activate
 * Create Flask app in Container
 * Run via kubectl
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Maniizzle/Udacity-Project-4/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Maniizzle/Udacity-Project-4/tree/main)

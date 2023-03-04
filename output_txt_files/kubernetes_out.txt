@@ -1,1 +1,15 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.devops) olamideonakoya@OLAMIDEs-MBP UdacityProjectFour % ./run_kubernetes.sh                                              
+deployment.apps/machinelearningapp created
+NAME                                  READY   STATUS              RESTARTS   AGE
+machinelearningapp-7b55655647-whl7g   0/1     ContainerCreating   0          0s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+
+
+NAME                                  READY   STATUS    RESTARTS   AGE
+machinelearningapp-7b55655647-whl7g   1/1     Running   0          60s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+

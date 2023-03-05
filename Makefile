@@ -10,10 +10,17 @@ setup:
 	# source ~/.devops/bin/activate
 	python3 -m venv ~/.devops
 
-install:
+install-python-dependencies:
 	# This should be run from inside a virtualenv
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
+
+install-hadolint:
+	#install hadolint
+	sudo wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.17.5/hadolint-Linux-x86_64
+	sudo chmod +x /bin/hadolint
+
+install: install-python-dependencies install-hadolint
 
 test:
 	# Additional, optional, tests could go here
